@@ -40,6 +40,13 @@ main {
       grid-template-rows: repeat(1fr, 60px);
 }
 
+@media (min-width: 1024px) {
+  .wrapper {
+    -ms-grid-columns: 200px 1fr;
+        grid-template-columns: 200px 1fr;
+  }
+}
+
 .sidebar {
   background: purple;
   bottom: 0;
@@ -50,7 +57,30 @@ main {
   position: fixed;
 }
 
+@media (min-width: 1024px) {
+  .sidebar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+  }
+}
+
 .main-content {
   padding: .5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
 }
 /*# sourceMappingURL=style.css.map */

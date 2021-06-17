@@ -4,6 +4,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css")
         link(rel="stylesheet", href="style.css")
         title Document
     body
@@ -12,8 +13,25 @@ html(lang="en")
             .wrapper 
                 .sidebar 
                     h4 Sidebar
-                .main-content 
-                    h4 Main Content
-                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis reprehenderit exercitationem provident ipsum obcaecati quia reiciendis commodi ea esse, consectetur voluptate vitae odio tempore eius inventore quas temporibus neque aliquam blanditiis fuga rerum nisi nesciunt? Pariatur non inventore odit quibusdam veritatis magnam quod minima aperiam! Magnam similique vel cupiditate minus excepturi, perspiciatis quae natus eos recusandae adipisci repudiandae delectus nobis ea suscipit qui ipsa animi harum voluptatem mollitia in aliquam labore placeat omnis sequi. Ea officiis odio nesciunt animi dolores saepe. Aperiam est vel maiores nobis tempora nihil quas. Non eius pariatur veritatis odio et ex neque amet tempore, dolorum minima tenetur! Porro voluptates fugiat minus omnis eum dignissimos, voluptatibus labore placeat pariatur voluptas, dolor ad id, asperiores reprehenderit esse dolore? Tempore similique cum, assumenda consequuntur sapiente facilis voluptatibus eaque culpa, aliquam officiis nam, aspernatur perferendis. Perspiciatis magni et animi ducimus consequatur, eius iusto velit repellat cum quod sit quibusdam atque sint sapiente amet nam dolorum a praesentium asperiores aspernatur molestias? Excepturi similique repellat officiis voluptatibus magnam sint, in tempore minima harum libero iusto quia fuga placeat voluptatum iure possimus illo. Perferendis molestiae dicta ullam voluptatibus saepe quos dolorum animi voluptas delectus reiciendis. Numquam, impedit totam placeat dolore ratione voluptas earum in perspiciatis maxime architecto laboriosam, molestias sapiente error optio eligendi commodi delectus nostrum quidem ut magnam cum odio? Cum libero perspiciatis nostrum minus nisi aliquid tempora rerum ratione? A, quae hic adipisci qui maxime itaque architecto repudiandae sed, aliquid cumque eveniet dolore suscipit illo temporibus fuga consequuntur amet cum minima reprehenderit! Id sunt odit quam ea recusandae, assumenda nobis debitis fuga libero ab quibusdam eaque dolor voluptate nesciunt odio. Maxime pariatur dignissimos, at suscipit beatae expedita iusto quibusdam necessitatibus vel odio magni provident cupiditate unde est aut? In hic nobis fugiat sapiente, illo nesciunt voluptates repellendus adipisci. Nam at, cumque eveniet exercitationem fugiat delectus amet neque eaque minima ratione magni, praesentium quo. Repellat eum repudiandae distinctio, eveniet similique hic atque omnis. Eaque aliquam ipsa culpa quisquam mollitia voluptatibus laboriosam dolores suscipit fugit nostrum dignissimos laborum reprehenderit dicta libero cupiditate temporibus possimus, nihil non odio aut fugiat minus. Dicta molestiae aut natus non corporis quos ea quia asperiores culpa laudantium voluptates earum quis quaerat alias error autem, exercitationem adipisci facilis ex sit. Hic officia nulla est laborum voluptate optio minima voluptatem doloremque delectus illo, quas magnam nemo voluptatibus adipisci unde sunt distinctio ipsa id. Inventore modi sequi magni. Eligendi, aspernatur!
+                .main-content
+                    block title-block
+                        .title-block 
+                            small WORKING
+                            h1.h4 Experience
+                    block screen-content 
+                        .row
+                            .col-12 
+                                .work-item.one 
+                                    img.img-fluid(src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg", alt="")
+                                    .bg-primary 
+                                    .work-item-meta.bg-primary.p-3
+                                        .row
+                                            .col-6
+                                                span.h5 Job Title 
+                                            .col-6.text-end
+                                                small August 2017  -  Current
+
+                   
         footer 
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js")
         script(src="main.js")
