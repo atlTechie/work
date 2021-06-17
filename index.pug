@@ -8,28 +8,78 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
         title Document
     body
-        header 
+        header
+            nav.navbar.navbar-expand-lg.navbar-light.bg-light
+                .container-fluid
+                    a.navbar-brand.fw-bold(href='#') ewright
+                    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                        span.navbar-toggler-icon
+                    #navbarSupportedContent.collapse.navbar-collapse
+                        ul.navbar-nav.me-auto.mb-2.mb-lg-0
+                            li.nav-item
+                                a.nav-link.active(aria-current='page' href='#') Home
+                            li.nav-item
+                                a.nav-link(href='#') Link 
         main
             .wrapper 
                 .sidebar 
                     h4 Sidebar
                 .main-content
-                    block title-block
-                        .title-block 
-                            small WORKING
-                            h1.h4 Experience
-                    block screen-content 
-                        .row
-                            .col-12 
-                                .work-item.one 
-                                    img.img-fluid(src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg", alt="")
-                                    .bg-primary 
-                                    .work-item-meta.bg-primary.p-3
-                                        .row
-                                            .col-6
-                                                span.h5 Job Title 
-                                            .col-6.text-end
-                                                small August 2017  -  Current
+                    .container
+                        .row 
+                            .col-6.ms-auto 
+                                small LinkedIn 
+                                small Youtube 
+                                small Behance
+                        block title-block
+                            row.title-block
+                                .col-12
+                                    small WORKING
+                                    h1.h4 Experience
+                        block screen-content 
+                            .row
+                                .col-12.mb-3 
+                                    .work-item.one 
+                                        img.img-fluid(src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg", alt="")
+                                        .bg-primary 
+                                            .work-item-meta.bg-primary.p-3
+                                                .row
+                                                    .col-6.mb-3
+                                                        span.h5 UI/UX Developer 
+                                                    .col-6.text-end
+                                                        small 8/2017  -  Current
+                                                    .col-12.mb-3 
+                                                        p.mb-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, id.
+                                                    .col-6.ms-auto 
+                                                        a.btn.btn-secondary.w-100(href="#") View More 
+                                .col-12.mb-3 
+                                    .work-item.two
+                                        img.img-fluid(src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg", alt="")
+                                        .bg-primary 
+                                            .work-item-meta.bg-primary.p-3
+                                                .row
+                                                    .col-6.mb-3
+                                                        span.h5 UI/UX Developer 
+                                                    .col-6.text-end
+                                                        small 8/2017  -  Current
+                                                    .col-12.mb-3 
+                                                        p.mb-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, id.
+                                                    .col-6.ms-auto 
+                                                        a.btn.btn-secondary.w-100(href="#") View More 
+                                .col-12 
+                                    .work-item.three
+                                        img.img-fluid(src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg", alt="")
+                                        .bg-primary 
+                                            .work-item-meta.bg-primary.p-3
+                                                .row
+                                                    .col-6.mb-3
+                                                        span.h5 UI/UX Developer 
+                                                    .col-6.text-end
+                                                        small 8/2017  -  Current
+                                                    .col-12.mb-3 
+                                                        p.mb-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, id.
+                                                    .col-6.ms-auto 
+                                                        a.btn.btn-secondary.w-100(href="#") View More 
 
                    
         footer 
