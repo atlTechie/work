@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
 // Variables
 
-$primary: #dd2d4a !important;
+$primary: #c1cbd7 !important;
 $bg: #273043;
 $white: #fff;
 $sidebar-bg: #e6eaef;
+$accent: #dd2d4a !important;
+$text: #485a70;
 
 .bg-primary {
   background: $primary;
@@ -68,4 +70,14 @@ main {
   @media (min-width: 1024px) {
     grid-column: 2/3;
   }
+}
+
+.work-item {
+  color: $text;
+}
+
+.btn-secondary {
+  background: $accent;
+  border-color: $accent;
+  border-radius: 2px;
 }

@@ -21,11 +21,13 @@ html(lang="en")
                                 a.nav-link.active(aria-current='page' href='#') Home
                             li.nav-item
                                 a.nav-link(href='#') Link 
-        main.py-3
+        main.pt-3
             .wrapper 
                 .sidebar 
-                    .container 
-                        .row
+                    .container.h-100 
+                        .row.flex-column.justify-content-center.align-items-center.h-100
+                            .col-12 
+                                .h3.fw-bold.text-dark ewright
                             .col-12
                                 ul#pills-tab.nav.nav-pills.justify-content-center.flex-lg-column(role='tablist')
                                     li.nav-item(role='presentation')
@@ -42,11 +44,8 @@ html(lang="en")
                                 span.fab.fa-linkedin
                                 span.fab.fa-youtube.mx-2
                                 span.fab.fa-behance
-                        block title-block
-                            row.title-block
-                                .col-12
-                                    small WORKING
-                                    h1.h4 Experience
+                        
+                            
                         block screen-content 
                             .row
                                 #pills-tabContent.tab-content

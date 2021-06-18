@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
 .bg-primary {
-  background: #dd2d4a !important;
+  background: #c1cbd7 !important;
 }
 
 body,
@@ -91,5 +91,15 @@ main {
     -ms-grid-column-span: 1;
     grid-column: 2/3;
   }
+}
+
+.work-item {
+  color: #485a70;
+}
+
+.btn-secondary {
+  background: #dd2d4a !important;
+  border-color: #dd2d4a !important;
+  border-radius: 2px;
 }
 /*# sourceMappingURL=style.css.map */
