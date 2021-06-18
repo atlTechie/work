@@ -81,3 +81,16 @@ main {
   border-color: $accent;
   border-radius: 2px;
 }
+
+.nav-pills .nav-link.active {
+  background: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid $accent;
+  color: $accent;
+  text-align: left;
+}
+
+.nav-link {
+  color: $text;
+  text-align: left;
+}
