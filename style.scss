@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
+// Variables
+
+$primary: #dd2d4a !important;
+$bg: #273043;
+$white: #fff;
+$sidebar-bg: #e6eaef;
+
+.bg-primary {
+  background: $primary;
+}
 
 body,
 html {
@@ -6,6 +16,10 @@ html {
   display: flex;
   flex-direction: column;
   font-family: "Nunito Sans", Arial, sans-serif;
+  color: $white;
+}
+body {
+  background: $bg;
 }
 
 * {
@@ -19,7 +33,6 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background: goldenrod;
 }
 
 .wrapper {
@@ -32,7 +45,7 @@ main {
 }
 
 .sidebar {
-  background: purple;
+  background: $sidebar-bg;
   bottom: 0;
   left: 0;
   right: 0;
