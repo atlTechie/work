@@ -94,3 +94,29 @@ main {
   color: $text;
   text-align: left;
 }
+
+.header-img, .callout-img, .callout-img-small{
+    
+    overflow: hidden;
+    width: 100%;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+.header-img{
+    height: 400px;
+}
+
+.callout-img{
+    height: 600px;
+}
+
+
+.callout-img-small{
+    height: 200px;
+}
